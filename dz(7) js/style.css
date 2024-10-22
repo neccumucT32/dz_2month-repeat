@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.seasons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.season-btn {
+  margin: 10px;
+  padding: 30px;
+  font-size: 18px;
+  flex-grow: 1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#winter {
+  background-color: rgb(87, 195, 249);
+}
+#spring {
+  background-color: greenyellow;
+}
+#summer {
+  background-color: yellow;
+}
+#autumn {
+  background-color: orange;
+}
+.month-btn {
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px auto;
+  display: block;
+}
